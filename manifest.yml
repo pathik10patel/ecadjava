@@ -1,11 +1,9 @@
+---
 applications:
-- path: .
+- name: pathikjava37
+  random-route: true
+  path: target/my.war
   memory: 512M
   instances: 1
+  host: pathikjava32
   domain: au-syd.mybluemix.net
-  random-route: true
-  name: pathik-ecad
-  host: pathik-ecad
-  path: target/my.war
-  services:
-  - ClearDB Managed MySQL Database-53
